@@ -209,7 +209,7 @@ function blueworx_get_feature_definitions() {
 		),
 		'cache_auto'            => array(
 			'label'       => __( 'Automatic cache refresh', 'blueworx-labs-wordpress' ),
-			'description' => __( 'Refreshes cache when pages or posts are changed.', 'blueworx-labs-wordpress' ),
+			'description' => __( 'Clears every cached page whenever anything changes: pages, templates, menus, theme settings, plugin updates.', 'blueworx-labs-wordpress' ),
 			'section'     => 'performance',
 			'detail'      => null,
 		),

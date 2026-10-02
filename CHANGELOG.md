@@ -4,6 +4,18 @@ All notable changes to this project are documented here. Format follows
 [Keep a Changelog](https://keepachangelog.com/); this project uses semantic
 versioning.
 
+## [1.89.0] - 2026-10-02
+
+### Changed
+- **Any change now clears the whole page cache.** Saving a template, header,
+  footer, menu, theme setting or plugin update clears every cached page, not
+  just page and post saves. Stale pages no longer hang around until the cache
+  expires on its own. The Cache screen shows when it last happened and why.
+- **Saving a page no longer rebuilds every page's Elementor styles.** Only the
+  saved page's styles are regenerated; the manual button still clears them all.
+- **The Cache screen no longer warns when Breeze is missing.** Varnish is the
+  page cache; Breeze is cleared too only while it is still installed.
+
 ## [1.88.2] - 2026-09-25
 
 ### Fixed
